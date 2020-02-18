@@ -5,6 +5,8 @@ We've selected the [GoodReads API](https://www.goodreads.com/api) for our assign
 Limitations:
 * Don't request any method more than once a second. (from GoodReads Developer Terms of Service)
 
+Heroku application: https://cicd-homework.herokuapp.com/README.md
+
 ## API
 
 Import the library and instantiate an object with your API key:
