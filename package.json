@@ -1,5 +1,6 @@
 {
     "scripts": {
+        "start": "serve -l tcp://localhost:$PORT",
         "lint": "eslint .",
         "mocha": "mocha \"./lib/**/*.test.js\" --exit",
         "test": "npm run lint & npm run mocha"

@@ -1,1 +1,1 @@
-web: node node_modules/serve/bin/serve --port $PORT
+web: npm start
