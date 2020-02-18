@@ -1,7 +1,8 @@
 {
     "scripts": {
         "lint": "eslint .",
-        "test": "mocha \"./**/*.test.js\" --exit"
+        "mocha": "mocha \"./**/*.test.js\" --exit",
+        "test": "npm run lint & npm run mocha"
     },
     "dependencies": {
         "axios": "^0.19.1",
