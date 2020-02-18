@@ -31,14 +31,6 @@ goodReads.getAuthorByName(authorName);
 
 # TODO
 
-* Write tests that:
-    * Cover at least 2 features
-    * Each feature contains 5 unit tests
-    * Test include at least one of each:
-        * Mock
-        * MagicMock
-        * Patch
-* Documentation in this `README.md`
 * PDF file
     * Short description of the features and API used
     * Tests passing on the local system for each unit (screenshots)
