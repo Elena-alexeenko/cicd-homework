@@ -76,12 +76,7 @@
             }
         ],
         "import/named": "error",
-        "import/default": [
-            "error",
-            {
-                "commonjs": true
-            }
-        ],
+        "import/default": "error",
         "import/no-absolute-path": [
             "error",
             {
@@ -102,36 +97,11 @@
             }
         ],
         "import/no-unused-modules": "error",
-        "import/export": [
-            "error",
-            {
-                "commonjs": true
-            }
-        ],
-        "import/no-deprecated": [
-            "error",
-            {
-                "commonjs": true
-            }
-        ],
-        "import/no-amd": [
-            "error",
-            {
-                "commonjs": true
-            }
-        ],
-        "import/first": [
-            "error",
-            {
-                "commonjs": true
-            }
-        ],
-        "import/no-namespace": [
-            "error",
-            {
-                "commonjs": true
-            }
-        ],
+        "import/export": "error",
+        "import/no-deprecated": "error",
+        "import/no-amd": "error",
+        "import/first": "error",
+        "import/no-namespace": "error",
         "import/extensions": [
             "error",
             {
@@ -139,12 +109,7 @@
             }
         ],
         "import/newline-after-import": "error",
-        "import/prefer-default-export": [
-            "error",
-            {
-                "commonjs": true
-            }
-        ],
+        "import/prefer-default-export": "error",
         "import/no-unassigned-import": "error"
     }
 }
